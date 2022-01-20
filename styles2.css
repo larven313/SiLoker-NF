@@ -1,0 +1,112 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+title2 {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "comic sans ms";
+    font-weight: 800px;
+    font-size: 20px;
+}
+
+.box {
+    margin-left: 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    top: 0;
+    z-index: 0;
+    border-bottom: 2px solid #121212;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+nav ul li a {
+    color: #343a40;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.tbl-biru {
+    margin-left: 600px;
+    text-align: right;
+    background: #343a40;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+a.tbl-biru:hover {
+    background: black;
+    text-decoration: none;
+}
+
+.home {
+    display: flex;
+    margin: auto;
+}
+
+.lbr {
+    width: 85%;
+    height: 300px;
+    border: 2px solid;
+    margin: 10px;
+}
+
+.kategori {
+    width: 15%;
+    height: 300px;
+    border: 2px solid;
+    margin: 10px;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+h1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+h99 {
+    font-size: 19px;
+}
+
+.lbr ul li {
+    margin-left: 40px;
+}
+
+#copyright {
+    text-align: left;
+    width: 100%;
+}

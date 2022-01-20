@@ -1,0 +1,144 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+title2 {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "comic sans ms";
+    font-weight: 800px;
+    font-size: 20px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    top: 0;
+    z-index: 0;
+    border-bottom: 2px solid #121212;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+nav ul li a {
+    color: #343a40;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.tbl-biru {
+    margin-left: 600px;
+    text-align: right;
+    background: #343a40;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+a.tbl-biru:hover {
+    background: black;
+    text-decoration: none;
+}
+
+.silokernf {
+    border: 2px solid;
+    margin-top: 20px;
+    width: 85%;
+    height: 250px;
+    margin: 10px;
+}
+
+.beritaterbaru {
+    display: flex;
+    border: 2px solid;
+    margin-top: 20px;
+    width: 15%;
+    height: 250px;
+    margin:10px;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+h1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 30px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+}
+
+li.a {
+    float: right;
+}
+
+h99 {
+    font-size: 20px;
+}
+
+.box {
+    margin-left: 10px;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.kolom {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#copyright {
+    text-align: left;
+    width: 100%;
+}
+
+.kolom p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
